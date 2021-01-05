@@ -1,0 +1,10 @@
+*{
+    margin:0;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .app{
+        width: 100vh;
+    }
+}

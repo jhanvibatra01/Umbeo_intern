@@ -1,0 +1,136 @@
+
+.header{
+    background-color: black;
+   width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.menu_icon{
+color: white;
+}
+
+.header > Link
+{
+    display: block;
+}
+
+.header_logo{
+    
+    height: 40px;
+    color: #cd9042;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+.header_grp{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.header_btn_link{
+    float: right;
+    color: white;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_btn_link:hover{
+    background-color:#cd9042 ;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 0;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.header_line{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cart{
+    margin-top: 5px;
+    height: 40px;
+    color: #cd9042;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 20px;
+    
+}
+
+.cart_grp{
+    display: flex;
+    flex-direction: row;
+}
+
+.toggle{
+    display: none;
+}
+
+#hidden{
+display: flex;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .header_btn_link{
+    font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 750px) {
+    .header_btn_link{
+        font-size: 15px;
+    }
+    }
+
+    @media only screen and (max-width: 650px) {
+        
+        .toggle{
+           display: flex;
+           color: #fff;
+           margin-left: 15px;
+        }
+
+        #not_hidden{
+            display: none;
+        }
+
+        #hidden{
+        left:0px;
+        top: 80px;
+        height: 450px;
+        max-height: 450px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background: #021E39;
+        }
+
+        .header_btn_link{
+            margin: 10px;
+            font-size: 25px;
+        }
+
+        .cart{
+            align-items: center;
+            
+        }
+
+        }
+    
