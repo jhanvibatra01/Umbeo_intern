@@ -2,14 +2,14 @@ import React, {useState} from 'react';
 import './Header.css';
 import {Link} from "react-router-dom";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
-import CloseIcon from '@material-ui/icons/Close';
+
 import MenuIcon from '@material-ui/icons/Menu';
-import { Button } from 'bootstrap';
+
 
 
 function Header() {
    
-const [showLinks,setShowLinks] = useState(true);
+const [showLinks,setShowLinks] = useState(false);
 
     return (
         <nav className="header" id="myHeader">
